@@ -3,6 +3,10 @@
     src: url(../fonts/Inter-Black.otf);
 }
 @font-face {
+    font-family:Inter-Bold;
+    src: url(../fonts/Inter-Bold.otf);
+}
+@font-face {
     font-family:Inter-Medium;
     src: url(../fonts/Inter-Medium.otf);
 }
@@ -52,6 +56,18 @@ a{
     background-color: black;
     transition-duration: .3s;
 }
+.action{
+    font-family:Raleway-Bold;
+    color: #252432;
+    font-size: 40px;
+    font-weight: 700;
+}
+.paragarap{
+    font-family:Raleway-Regular;
+    color: #252432;
+    font-size: 24px;
+    font-weight: 400;
+}
 /* header section start */
 header{
     background-image: url(../images/Hero-bg.png);
@@ -83,10 +99,66 @@ nav{
     color: #252432;
     font-size: 65px;
     font-weight: 700;
-    /* text-align: center; */
+
 }
 .banner button{
- margin-top: 60px;
+    margin-top: 60px;
 }
 
 /* header section end */
+/* action section start*/
+#action{}
+.action-container{
+    margin: 0 auto;
+    padding-bottom: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.see-action{
+    width: 45%;
+}
+.see-action h2{}
+.see-action p{
+    margin: 25px 0;
+}
+.see-action button{}
+.action-img img{
+    border-radius: 30px;
+}
+/* action section end*/
+/* Productive Users section start */
+#user{}
+.user-container{
+    margin: 0 auto;
+    width: 90%;
+    background-color: #eeedff;
+    border-radius: 30px;
+}
+.user-container h2{
+    padding-top: 50px;
+    text-align: center;
+}
+.user-box{
+    display: flex;
+    justify-content: space-around;
+}
+.active-user{
+    padding-bottom: 30px;
+}
+.active-user h2{
+    padding-top: 50px;
+    font-family:Inter-Bold;
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+}
+.active-user p{
+    font-family:Inter-Regular;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* Productive Users section end */
