@@ -53,6 +53,11 @@ a{
     transition-duration: .3s;
 }
 /* header section start */
+header{
+    background-image: url(../images/Hero-bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 .header-container{
     margin: 0 auto;
     padding-top: 50px;
@@ -66,4 +71,22 @@ nav{
 .nav-logo h1{
     cursor: pointer;
 }
+/* banner */
+.banner{
+    margin: 0 auto;
+    padding-top: 120px;
+    width: 90%;
+    text-align: center;
+}
+.banner h1{
+    font-family:Raleway-Bold;
+    color: #252432;
+    font-size: 65px;
+    font-weight: 700;
+    /* text-align: center; */
+}
+.banner button{
+ margin-top: 60px;
+}
+
 /* header section end */
