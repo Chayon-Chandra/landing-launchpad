@@ -71,6 +71,24 @@ body{
     font-size: 24px;
     font-weight: 400;
 }
+.input-name{
+    font-family:Inter-Medium;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.input-placeholder{
+    font-family:Inter-Regular;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+.input-placeholder:hover{
+    border: 2px solid #4E47FF;
+    transition-duration: .3s;
+}
+
 /* header section start */
 header{
     background-image: url(../images/Hero-bg.png);
@@ -258,9 +276,79 @@ nav{
 }
 .focus-img{
     margin-top: 30px;
+    padding-bottom: 50px;
     text-align: center;
 }
 .focus-img img{
     border-radius: 30px;
 }
 /* focus section end*/
+/* form section start */
+#form{
+    margin: 50px 0;
+}
+.form-container{
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.form-let{
+    width: 50%;
+}
+.form-let h2{
+    display: flex;
+    align-items: center;
+    font-family:Raleway-Bold;
+    color: #000000;
+    font-size: 80px;
+    font-weight: 700;
+}
+.form-info{
+    width: 50%;
+}
+.form-name{
+    margin-top: 22px;
+}
+.form-name label{}
+.form-name input{
+    margin-top: 8px;
+    padding: 20px 0 20px 20px;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 10px;
+    width: 96%;
+
+}
+.form-email{
+    margin-top: 22px;
+}
+.form-email label{}
+.form-email input{
+    margin-top: 8px;
+    padding: 20px 0 20px 20px;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 10px;
+    width: 96%;
+}
+.form-textarea{
+    margin-top: 22px;
+}
+.form-textarea textarea{
+    margin-top: 8px;
+    padding: 20px 0 20px 20px;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 10px;
+    width: 96%;
+}
+form button{
+    margin-top: 22px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+}
+/* form section end */
