@@ -120,7 +120,6 @@ nav{
     color: #252432;
     font-size: 65px;
     font-weight: 700;
-
 }
 .banner button{
     margin-top: 60px;
@@ -128,7 +127,9 @@ nav{
 
 /* header section end */
 /* action section start*/
-#action{}
+#action{
+    padding: 50px 0;
+}
 .action-container{
     margin: 0 auto;
     padding-bottom: 70px;
@@ -140,19 +141,17 @@ nav{
 .see-action{
     width: 45%;
 }
-.see-action h2{}
 .see-action p{
     margin: 25px 0;
 }
-.see-action button{}
 .action-img img{
     border-radius: 30px;
 }
 /* action section end*/
 /* Productive Users section start */
-#user{}
 .user-container{
     margin: 0 auto;
+    padding: 20px 0 50px 0;
     width: 90%;
     background-color: #eeedff;
     border-radius: 30px;
@@ -233,7 +232,6 @@ nav{
     display: flex;
     justify-content: left;
 }
-.reviwer-img{}
 .reviwer-img img{
     border-radius: 50%;
 }
@@ -259,7 +257,7 @@ nav{
 }
 .focus-container{
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 80px 0;
     width: 90%;
     background-color:#FFFFFF;
     border-radius: 20px;
@@ -267,7 +265,6 @@ nav{
 .focus-text{
     text-align: center;
 }
-.focus-text h2{}
 .focus-text p{
     margin: 20px 0;
 }
@@ -285,7 +282,7 @@ nav{
 /* focus section end*/
 /* form section start */
 #form{
-    margin: 50px 0;
+    padding-bottom: 50px;
 }
 .form-container{
     margin: 0 auto;
@@ -312,7 +309,6 @@ nav{
 .form-name{
     margin-top: 22px;
 }
-.form-name label{}
 .form-name input{
     margin-top: 8px;
     padding: 20px 0 20px 20px;
@@ -325,7 +321,6 @@ nav{
 .form-email{
     margin-top: 22px;
 }
-.form-email label{}
 .form-email input{
     margin-top: 8px;
     padding: 20px 0 20px 20px;
@@ -352,3 +347,41 @@ form button{
     border-radius: 10px;
 }
 /* form section end */
+/* footer section start */
+footer{
+    padding: 70px 0;
+    background-color: #FFFFFF;
+}
+.footer-container{
+    margin: 0 auto;
+    width: 60%;
+}
+.footer-container h2{
+    font-family:Inter-Black;
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer-container p{
+    margin: 20px 0;
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-menu ul li a{
+    margin-top: 10px;
+    padding: 10px 20px ;
+    font-family:Inter-Regular;
+    text-transform: capitalize;
+}
+.footer-menu ul li a:hover{
+    color: #eeedff;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    transition-duration: .3s;
+}
+/* footer section end */
