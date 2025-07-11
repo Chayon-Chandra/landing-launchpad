@@ -32,6 +32,9 @@ li{
 a{
     text-decoration: none;
 }
+body{
+    background-color: #F5F8FF;
+}
 /* Share Class */
 .logo{
     font-family:Inter-Black;
@@ -162,3 +165,102 @@ nav{
     text-transform: capitalize;
 }
 /* Productive Users section end */
+/* What our users say section start */
+#card{
+    margin-top: 70px;
+}
+.what-container{
+    margin: 0 auto;
+    width: 90%;
+
+}
+.what-container h2{
+    text-align: center;
+}
+.what-card{
+    display: flex;
+    justify-content: space-between;
+}
+.card-item{
+    margin: 50px 0;
+    padding: 70px;
+    width: 20%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, .1);
+    border-radius: 20px;
+}
+.star-img{
+    display: flex;
+}
+.star-img img{
+    width: 30px;
+    margin-right: 20px;
+}
+.card-item h6{
+    margin-top: 10px;
+    padding: 20px 0;
+    font-family:Inter-Bold;
+    color: #252432;
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-item p{
+    font-family:Raleway-Regular;
+    color: #252432;
+    font-size: 20px;
+    font-weight: 400;
+}
+.reviwer{
+    padding: 20px 0;
+    display: flex;
+    justify-content: left;
+}
+.reviwer-img{}
+.reviwer-img img{
+    border-radius: 50%;
+}
+.reviwer-text{
+    margin-left: 10px;
+}
+.reviwer-text h5{
+    font-family:Inter-Bold;
+    color: #252432;
+    font-size: 20px;
+    font-weight: 500;
+}
+.reviwer-text p{
+    font-family:Raleway-Regular;
+    color: #252432;
+    font-size: 18px;
+    font-weight: 400
+}
+/* What our users say section end */
+/* focus section start*/
+#focus{
+    margin-top: 60px;
+}
+.focus-container{
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 90%;
+    background-color:#FFFFFF;
+    border-radius: 20px;
+}
+.focus-text{
+    text-align: center;
+}
+.focus-text h2{}
+.focus-text p{
+    margin: 20px 0;
+}
+.focus-text button{
+    margin-top: 10px;
+}
+.focus-img{
+    margin-top: 30px;
+    text-align: center;
+}
+.focus-img img{
+    border-radius: 30px;
+}
+/* focus section end*/
